@@ -1,32 +1,11 @@
-html, body, #app {
-    height: 100%;
+* {
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#app {
-    display: flex;
-    flex-wrap: wrap-reverse;
-}
-
-.box {
-    width: 100px;
-    height: 60px;
-    background: #f00;
-    margin: 5px;
-}
-
-.red {
-    order: 1;
-}
-
-.green {
-    background: #0f0;
-    order: 2;
-
-}
-
-.blue {
-    background: #00f;
-    order: 3;
-
+body {
+    background: #e6ecf0;
+    font-family: 'Helvetice Neue', Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
 }
