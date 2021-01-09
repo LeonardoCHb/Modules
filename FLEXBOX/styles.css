@@ -10,13 +10,28 @@ body {
     text-rendering: optimizeLegibility !important;
 }
 
+input, button {
+    outline: 0;
+}
+
+.content {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
 
 header#main-header{
+    height: 46px;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+header#main-header .content{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 46px;
-    background: #fff;
+    height: 100%;
 }
 
 header#main-header nav ul{
@@ -43,15 +58,32 @@ header#main-header nav li i{
     margin-right: 7px;
 }
 
-header#main-header div.side fas {
+header#main-header div.side {
+    display: flex;
+}
+
+header#main-header div.side input {
+   background: #f5f8fa;
+   border: 1px solid #E6ECF0;
+   height: 34px;
+   padding: 0 12px;
+   border-radius: 16px;
+   color: #667581;
+   font-size: 12px;
+   margin-right: 15px;
+}
+
+header#main-header div.side .fas {
     height: 34px;
     width: 35px;
-    border-radius: 50%;
+    font-size: 30px;
+    margin: 0 15px;
 }
 
 header#main-header div.side button {
     height: 34px;
     background: #3BB9E3;
+    
 
     display: flex;
     align-items: center;
