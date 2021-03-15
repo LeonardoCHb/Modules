@@ -4,8 +4,8 @@ import AppointmentsRepository from '../repositories/AppointmentsRepository'
 
 
 interface Request {
-    provider: string;
-    date: Date;
+    provider: string
+    date: Date
 }
 
 class CreateAppointmentService {
@@ -33,7 +33,7 @@ class CreateAppointmentService {
 
     return appointment
     }
-    
+
 }
 
 export default CreateAppointmentService
