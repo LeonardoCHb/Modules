@@ -1,2 +1,4 @@
 # Modules
-Modules made in Bootcamp( Go Stack! )
+Ignite and Gostack bootcamp modules!
+
+
