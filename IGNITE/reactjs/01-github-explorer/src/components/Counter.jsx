@@ -5,14 +5,13 @@ export function Counter(){
 
     function increment(){
         setCounter(counter + 1)
-        console.log(setCounter)
     }
 
     return (
         <div>
             <h2>{counter}</h2>
             <button type="button" onClick={increment}>
-                Increment
+                Increment +1
             </button>
         </div>
     )
