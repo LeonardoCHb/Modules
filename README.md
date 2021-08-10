@@ -1,4 +1,4 @@
 # Modules
-Ignite and Gostack bootcamp modules!
+A repository for my studies in Software development
 
 
